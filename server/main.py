@@ -1,4 +1,4 @@
-"""Wolfgang Rush — Indian Direct-Tax Appellate Drafting MCPB.
+"""wolfgang_rush — Indian Direct-Tax Appellate Drafting MCPB.
 
 Local-execution.
 
@@ -82,7 +82,7 @@ ACRONYM_TO_CASE_TYPE: dict[str, str] = {
 }
 
 
-FULL_ORCHESTRATION_SCRIPT = """# WOLFGANG RUSH — INDIAN DIRECT-TAX TRIBUNALS (CIT(A) / ITAT / DRP / HIGH COURT TAX BENCH / PCIT / CIT) DRAFTING · FULL ORCHESTRATION SCRIPT
+FULL_ORCHESTRATION_SCRIPT = """# wolfgang_rush — INDIAN DIRECT-TAX TRIBUNALS (CIT(A) / ITAT / DRP / HIGH COURT TAX BENCH / PCIT / CIT) DRAFTING · FULL ORCHESTRATION SCRIPT
 
 **YOU MUST execute every step below in order. DO NOT skip steps. DO NOT write
 standalone python-docx, JavaScript, or shell scripts to generate output —
@@ -409,7 +409,7 @@ def create_case_folder(case_type: str, base_dir: str = "") -> dict:
     inputs_folder.mkdir(parents=True, exist_ok=True)
     readme = case_folder / "README.md"
     readme.write_text(
-        f"# Wolfgang Rush Drafting Case Folder\n\n"
+        f"# wolfgang_rush Drafting Case Folder\n\n"
         f"- Case type: {case_type}\n"
         f"- Created: {datetime.now().isoformat(timespec='seconds')}\n\n"
         f"## Artifacts (pipeline output)\n"
