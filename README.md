@@ -1,3 +1,21 @@
+<div align="center">
+
+<img src="docs/banner.png" width="820"/>
+
+**Drafting connector for India's Direct-Tax forums — CIT(A), ITAT, DRP, the High Court Tax Bench, PCIT and CIT.**
+
+Visit the live site: [wolfgangrush.github.io](https://wolfgangrush.github.io)
+
+<p>
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"/>
+  <img src="https://img.shields.io/badge/Model_Context_Protocol-MCPB-blue.svg" alt="MCP Bundle"/>
+  <img src="https://img.shields.io/badge/Jurisdiction-India-orange.svg" alt="Jurisdiction: India"/>
+  <img src="https://img.shields.io/badge/Domain-Direct_Tax-blueviolet.svg" alt="Domain: Direct Tax"/>
+</p>
+
+</div>
+
+
 # wolfgang_rush — Indian Direct-Tax Appellate Drafting
 
 **MCPB Desktop Extension** for Indian advocates using Claude Desktop App. Local-execution. Zero data collection.
